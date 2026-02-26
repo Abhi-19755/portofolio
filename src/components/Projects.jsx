@@ -36,9 +36,38 @@ const Projects = () => {
       gradient: "from-indigo-500 to-purple-500",
       iconBg: "from-indigo-500/20 to-purple-500/20",
       link:"https://github.com/Abhi-19755/Spring_MVC"
+    },{
+
+     title: "E-Commerce Web Application (Spring Boot)",
+description:
+  "A full-stack E-Commerce web application built using Spring Boot and Thymeleaf with secure authentication and role-based access. The application allows users to browse products, manage carts, place orders, and maintain profiles, while admins manage products and orders through a dedicated dashboard.",
+techStack: [
+  "Java 17",
+  "Spring Boot",
+  "Spring MVC",
+  "Spring Security",
+  "Thymeleaf",
+  "JPA / Hibernate",
+  "MySQL",
+  "Maven",
+  "Apache Tomcat"
+],
+features: [
+  "User Registration & Secure Login (Spring Security)",
+  "Role-Based Access Control (Admin / User)",
+  "Product Listing & Category Pages",
+  "Add to Cart & Checkout Flow",
+  "Order Placement & Order History",
+  "Admin Dashboard for Product & Order Management",
+  "Search & Wishlist Functionality",
+  "Profile Management",
+  "BCrypt Password Encryption"
+],
+link: "https://github.com/Abhi-19755/Spring_MVC"
+
     },
     {
-      title: "Product Management System",
+      title: "Book Management System",
       description:
         "A full-stack CRUD application for managing product inventory. Features include product listing, search functionality, and a responsive React frontend with Spring Boot REST APIs.",
       techStack: ["Spring Boot", "React", "REST APIs", "MySQL"],
