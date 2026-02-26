@@ -113,7 +113,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <a
-                href="/Abhi_javaDev"
+                href="/Abhi_javaDev.pdf"
                 download
                 className="group flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-500 hover:to-primary-600 text-white font-semibold rounded-xl shadow-lg shadow-primary-600/25 hover:shadow-primary-500/40 transition-all duration-300 hover:-translate-y-0.5"
               >
